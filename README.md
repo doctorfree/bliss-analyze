@@ -1,6 +1,6 @@
 # Blissify-analyse
 
-Simple rust app to analyse songs with bliss-rs.
+Simple rust app to analyse songs with [bliss-rs](https://github.com/Polochon-street/bliss-rs).
 
 
 # Building
