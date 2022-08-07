@@ -2,7 +2,7 @@
 name = "bliss-analyze"
 version = "0.1.0"
 authors = ["Craig Drummond <craig.p.drummond@gmail.com>", "Ronald Record <ronaldrecord@gmail.com>"]
-edition = "2022"
+edition = "2018"
 license = "GPL-3.0-only"
 description = "Analyze audio file with bliss-rs"
 repository = "https://github.com/doctorfree/bliss-analyze"
