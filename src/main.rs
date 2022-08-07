@@ -1,5 +1,5 @@
 /*
- * bliss-analyse
+ * bliss-analyze
  *
  * Copyright (c) 2022 Craig Drummond <craig.p.drummond@gmail.com>
  *

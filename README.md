@@ -1,6 +1,6 @@
-# bliss-analyse
+# bliss-analyze
 
-Simple rust app to analyse songs with [bliss-rs](https://github.com/Polochon-street/bliss-rs).
+Simple rust app to analyze songs with [bliss-rs](https://github.com/Polochon-street/bliss-rs).
 
 
 # Building
@@ -17,9 +17,9 @@ apt install -y clang libavcodec-dev libavformat-dev libavutil-dev libavfilter-de
 Build with `cargo build --release`
 
 
-## Analyse a song
+## Analyze a song
 
 ```
-$ bliss-analyse /path/to/song.mp3
+$ bliss-analyze /path/to/song.mp3
 ```
 
