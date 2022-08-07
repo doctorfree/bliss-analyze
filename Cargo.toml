@@ -9,6 +9,19 @@ repository = "https://github.com/doctorfree/bliss-analyze"
 keywords = ["audio", "song", "similarity"]
 readme = "README.md"
 
+[package.metadata.deb]
+maintainer = "Ronald Record <ronaldrecord@gmail.com>"
+copyright = "2022, Ronald Record <ronaldrecord@gmail.com>"
+extended-description = """Debian packaging for the Bliss-Analyze project."""
+depends = "$auto"
+section = "utility"
+priority = "optional"
+assets = [
+    ["target/release/bliss-analyze", "usr/bin/", "755"],
+    ["LICENSE", "usr/share/doc/bliss-analyze/LICENSE", "644"],
+    ["README.md", "usr/share/doc/bliss-analyze/README.md", "644"],
+]
+
 [dependencies]
 bliss-audio = "0.4.4"
 ffmpeg-next = "4.4.0"
